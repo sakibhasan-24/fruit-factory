@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fruit-factory</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css"
       rel="stylesheet"
       type="text/css"
     />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+     body{
+      font-family: 'Poppins', sans-serif;
+     }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- icons -->
     <script
@@ -230,9 +241,11 @@
 
       <!-- end of slider overlap section -->
       <!-- meal of section -->
-      <section class="mt-36 mx-20 md:mx-auto">
+      <section class="mt-36 mx-12 md:mx-auto">
+        
+
         <!-- information-section -->,
-        <div class="flex flex-col gap-7 md:flex-row md:gap-20 lg:gap-36">
+        <div class="flex flex-col gap-6 md:flex-row md:gap-12 lg:gap-24">
           <div class="space-y-4">
             <h1 class="text-6xl font-bold">Deal of the day</h1>
             <p class="text-gray-500">
@@ -242,37 +255,44 @@
             </p>
           </div>
           <div
-            class="flex gap-4 lg:gap-24 md:gap-10 md:justify-center md:items-center"
+            class="flex gap-3 lg:gap-12 md:gap-8 md:justify-center md:items-center"
           >
-            <div class="text-center">
+          
+            <div class="text-center flex  flex-col ">
+              
               <span
-                class="countdown text-xl md:text-6xl mr-6 md:mr-auto font-bold"
+                class="countdown text-5xl md:text-6xl ml-1  md:mr-auto font-bold"
               >
-                <span class="text-center" style="--value: 29"></span>
+              <span style="--value:30;" ></span>:
               </span>
               days
             </div>
-            <div class="text-center">
+          
+            
+            <div class="text-center flex flex-col">
               <span
-                class="countdown mr-6 md:mr-auto text-xl md:text-6xl font-bold"
+                class="countdown  text-5xl md:text-6xl ml-1  md:mr-auto font-bold"
               >
-                <span class="text-center" style="--value: 15"></span>
+              <span style="--value:16;" ></span>:
               </span>
               hours
             </div>
-            <div class="text-center">
-              <span
-                class="countdown mr-6 md:mr-auto text-xl md:text-6xl font-bold"
+            <div class="text-center flex flex-col" >
+             
+                <span
+                class="countdown text-5xl md:text-6xl ml-1  md:mr-auto font-bold"
               >
-                <span class="text-center" style="--value: 25"></span>
+              <span style="--value:26;" ></span>:
               </span>
               min
+              
+             
             </div>
-            <div class="text-center">
+            <div class="text-center flex flex-col">
               <span
-                class="countdown mr-6 md:mr-auto text-xl md:text-6xl font-bold"
+                class="countdown text-5xl md:text-6xl ml-1  md:mr-auto font-bold"
               >
-                <span class="text-center" style="--value: 08"></span>
+              <span style="--value:08;"></span>
               </span>
               sec
             </div>
@@ -657,7 +677,7 @@
             <div class="">
               <div class="hero-content text-center">
                 <div>
-                  <div class="container md:py-3 lg:py-4 lg:px-12 md:px-10">
+                  <div class="container md:py-3 lg:py-4 lg:px-12 md:px-2">
                     <h1 class="mb-5 text-3xl text-white md:text-6xl font-bold">
                       Meet the team section
                     </h1>
@@ -669,12 +689,12 @@
                   </div>
 
                   <div
-                    class="flex flex-col gap-12 md:flex-row lg:flex-row md:gap-32 lg:gap-36 items-center justify-center text-white"
+                    class="flex flex-col gap-12 md:flex-row lg:flex-row md:gap-12 lg:gap-24 items-center justify-center text-white"
                   >
                     <div class="space-y-4">
                       <img
                         src="images/member1.png"
-                        class="mx-auto"
+                        class="mx-auto w-auto md:w-[300px] lg:w-auto"
                         alt="member"
                       />
                       <h1 class="text-white text-center text-2xl font-bold">
@@ -690,7 +710,7 @@
                     <div class="space-y-4">
                       <img
                         src="images/member2.png"
-                        class="mx-auto"
+                        class="mx-auto w-auto md:w-[300px] lg:w-auto"
                         alt="member"
                       />
                       <h1 class="text-white text-2xl font-bold">
@@ -706,14 +726,14 @@
                     <div class="space-y-4">
                       <img
                         src="images/member3.png"
-                        class="mx-auto"
+                        class="mx-auto w-auto md:w-[300px] lg:w-auto"
                         alt="member"
                       />
                       <h1 class="text-white text-2xl font-bold">
                         Rokib Hossain
                       </h1>
                       <p class="text-center">Fruits Expert</p>
-                      <div class="flex gap-4 items-center justify-center">
+                      <div class="flex gap-4 md:gap-2 items-center justify-center">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-linkedin"></i>
@@ -722,7 +742,7 @@
                     <div class="space-y-4">
                       <img
                         src="images/member4.png"
-                        class="mx-auto"
+                        class="mx-auto w-auto md:w-[300px] lg:w-auto"
                         alt="member"
                       />
                       <h1 class="text-white text-2xl font-bold">Chaity</h1>
@@ -757,7 +777,7 @@
         >
           <div class="first-text md:mx-0 mx-5">
             <div>
-              <div class="flex items-center gap-12">
+              <div class="flex flex-col md:flex-row-reverse gap-2 lg:flex-row-reverse items-center lg:gap-12 md:gap-12">
                 <div class="bg-gray-200 rounded-[50%] py-4 px-6">
                   <i class="fa-solid fa-person"></i>
                 </div>
@@ -770,7 +790,7 @@
                   </p>
                 </div>
               </div>
-              <div class="flex items-center gap-12">
+              <div class="flex flex-col md:flex-row-reverse gap-2 lg:flex-row-reverse items-center lg:gap-12 md:gap-12">
                 <div class="bg-gray-200 rounded-[50%] py-4 px-6">
                   <i class="fa-solid fa-heart"></i>
                 </div>
@@ -783,7 +803,7 @@
                   </p>
                 </div>
               </div>
-              <div class="flex items-center gap-12">
+              <div class="flex flex-col md:flex-row-reverse gap-2 lg:flex-row-reverse items-center lg:gap-12 md:gap-12">
                 <div class="bg-gray-200 rounded-[50%] py-4 px-6">
                   <i class="fa-solid fa-gift"></i>
                 </div>
@@ -808,7 +828,7 @@
           <div>
             <div class="second-text md:mx-0 mx-5">
               <div>
-                <div class="flex flex-row-reverse items-center gap-4 md:gap-12">
+                <div class="flex flex-col md:flex-row-reverse gap-2 lg:flex-row-reverse items-center lg:gap-12 md:gap-12">
                   <div class="bg-gray-200 rounded-[50%] py-4 px-6">
                     <i class="fa-solid fa-truck"></i>
                   </div>
@@ -821,7 +841,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="flex flex-row-reverse items-center gap-12">
+                <div class="flex flex-col md:flex-row-reverse gap-2 lg:flex-row-reverse items-center lg:gap-12 md:gap-12">
                   <div class="bg-gray-200 rounded-[50%] py-4 px-6">
                     <i class="fa-solid fa-recycle"></i>
                   </div>
@@ -834,7 +854,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="flex flex-row-reverse items-center gap-12">
+                <div class="flex flex-col md:flex-row-reverse gap-2 lg:flex-row-reverse items-center lg:gap-12 md:gap-12">
                   <div class="bg-gray-200 rounded-[50%] py-4 px-6">
                     <i class="fa-regular fa-thumbs-up"></i>
                   </div>
